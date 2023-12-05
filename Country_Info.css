@@ -98,11 +98,14 @@
  }
 
  @media screen and (max-width : 600px){
-   #result{
-      margin-left: 140px;
-    margin-right: -215px;
-    padding-left: 160px;
-   }
+   #result {
+      margin-left: -50px;
+      margin-right: -300px;
+      padding-left: 200px;
+  }
+  span{
+   margin-left: -345px;
+  }
    #body{
       width: 100vh;
    }
@@ -110,7 +113,10 @@
       margin-left: 355px;
    }
    #country-border {
-      margin-left: 315px;
+      margin-left: 160px;
+ }
+ #country-name{
+   margin-left: 60px;
  }
 }
 
