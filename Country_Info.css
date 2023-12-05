@@ -1,0 +1,117 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+} */
+
+#body{
+    /* width: 100%;
+    height: 100vh;
+    display: flex;
+     justify-content:center;
+     align-items: center; */
+     height: 1000px;
+     width: auto;
+     background: linear-gradient(70deg, #bf70b2, #b98495, #20d1a8,#d0e341);
+ }
+
+ h1{
+    margin: 0;
+    margin-left: 580px;
+    font-size: 30px;
+    color: white;
+ }
+
+ #country-border input{
+   border: 1px solid #ade526;
+   outline: 0;
+   border-radius: 5px 20px 5px 20px;
+   height: 45px;
+   width: 235px;
+   font-size: 20px;
+   font-family: ui-serif;
+ }
+
+ #country-border button{
+   border-radius: 95px 5px 95px 5px;
+    height: 50px;
+    width: 85px;
+    background-color: #599772;
+    color: white;
+    border: 1px solid #43d91d;
+    cursor: pointer;
+ }
+
+ .flag-img{
+   width: 145px;
+    padding-left: 55px;
+ }
+
+ h3{
+   margin-left: 10px;
+    color: red;
+    font-style: normal;
+    font-size: 20px;
+ }
+
+ #country-border{
+   margin-left: 545px;
+    padding-top: 45px;
+ }
+
+ #result {
+    margin: 251px;
+    padding-top: 30px;
+    align-items: center;
+    /* border: 1px solid black;
+    background: white; */
+    padding-left: 15px;
+    margin: 10px;
+    margin-left: 510px;
+    margin-right: 80px;
+ }
+
+ #country-name{
+   margin: 0;
+   margin-left: 65px;
+   font-size: 55px;
+   color: black;
+   font-family: ui-serif;
+ }
+
+ span{
+   letter-spacing: 0.3px;
+    margin-left: -260px;
+    padding-top: 18px;
+    font-size: 20px;
+ }
+
+ h4{
+   letter-spacing: 0.9px;
+ }
+
+ .data-wrapper{
+   display: grid;
+   grid-template-columns: auto auto;
+   gap:50px;
+ }
+
+ @media screen and (max-width : 600px){
+   #result{
+      margin-left: 140px;
+    margin-right: -140px;
+    padding-left: 160px;
+   }
+   #body{
+      width: 100vh;
+   }
+   h1{
+      margin-left: 355px;
+   }
+   #country-border {
+      margin-left: 315px;
+ }
+}
+
+
